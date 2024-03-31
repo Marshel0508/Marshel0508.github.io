@@ -534,6 +534,26 @@ html, body {
     margin-top: 10px;
 }
 
+.about{
+    display: flex;
+    width: 100%;
+}
+
+.about div:first-child{
+    margin-right: 16px;
+}
+
+.about div:last-child{
+    margin-left: 16px;
+}
+
+
+.image-pp{
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 /* Modal */
 .modal {
     z-index: 9999;

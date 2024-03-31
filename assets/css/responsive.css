@@ -442,6 +442,21 @@
 		margin-top: 25px;
 	}
 
+	.about{
+    display: flex;
+		flex-direction: column;
+	}
+
+	.about div:first-child{
+		margin: 0;
+    margin-bottom: 16px;
+	}
+
+	.about div:last-child{
+		margin: 0;
+    margin-top: 16px;
+	}
+
 	/* FOOTER
 	================================================== */
 	.site-footer .row {
